@@ -1,7 +1,5 @@
 # Problem of 2 sums
 
-
-
 def getindices(nums, prev, curr):
     pos = '['
     if prev == curr:
