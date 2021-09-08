@@ -1,4 +1,4 @@
-#Basic Linked List Problem
+#Basic Linked List Problem (single)
 
 class Node:
     def __init__(self, dataval=None):
@@ -52,11 +52,12 @@ e3 = Node("Wed")
 
 list1.headval.nextval = e2
 
+print(list1.headval.nextval)
 #Link second node to third
 
 e2.nextval = e3
 
-list1.listprint()
+#list1.listprint()
 
 list1.AtBegining("Sun")
 print('\n',"*******************************", '\n', "printing new row" , '\n', "******************************")
