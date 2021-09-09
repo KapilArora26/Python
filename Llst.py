@@ -59,6 +59,7 @@ list1.head = Node(1)
 val2 = Node(2)
 val3 = Node(3)
 val4 = Node(4)
+val5 = Node(5)
 #LInking the list
 
 list1.head.next = val2
@@ -67,6 +68,8 @@ val2.next = val3
 val3.previous = val2
 val3.next = val4
 val4.previous = val3
+val4.next = val5
+val5.previous = val4
  
 list1.printfwdlist()
 
