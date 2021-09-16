@@ -27,6 +27,5 @@ astack.add("Wed")
 print(astack.peek())
 astack.add("Thu")
 print(astack.peek())
-
 astack.pop()
 print(astack.peek())
