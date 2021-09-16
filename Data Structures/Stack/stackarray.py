@@ -22,9 +22,13 @@ class sarray:
             return None
 
     def printarr(self):
-        for x in self.arr:
-            print (x)
-        return
+        if len(self.arr) == 0:
+            print ("there are no elements left in the stack")
+            return
+        else:
+            for x in self.arr:
+                print (x)
+            return
 
 
 
@@ -39,4 +43,6 @@ arr.printarr()
 arr.pop()
 print('\n', "values in stack after 2nd pop")
 arr.printarr()
-
+arr.pop()
+print('\n', "values in stack after 3rd pop")
+arr.printarr()
